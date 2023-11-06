@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+	<!-- Google Font -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+	<!-------->
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+
+		.navMenu {
+			font-family: 'Advent Pro', sans-serif;
+			padding: 8px;
+			text-align: center;
+			margin: 7px auto;
+			width: fit-content;
+		}
+
+		.navMenu a {
+			color: #272727;
+			text-decoration: none;
+			text-transform: uppercase;
+			display: inline-block;
+			padding: 6px;
+		}
+
+		.background {
+			background-color: #ece5f0;
+		}
+
+		.border {
+			border: 1px solid #cccccc;
+
+		}
+
+		.navMenu a:hover {
+
+			color: #d09c0b;
+		}
+	</style>
+</head>
+
+<body>
+
+	<nav class="navMenu  border">
+		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Home</a>
+		<a id="projects" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-bars-progress"></i></i> Projects</a>
+		<a id="notes" onclick="navigate(this.id)" href="#"> <i class="fa-regular fa-note-sticky"></i></i> Notes</a>
+		<a id="resources" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book"></i></i> Resources</a>
+		<a id="tasks" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-list-check"></i> Tasks</a>
+		<a id="database" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-database"></i></i> Databases</a>
+		<a id="archive" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-box-archive"></i></i> Archive</a>
+		
+
+
+
+	</nav>
+
+
+	<script>
+
+		let direction = "vertical";
+		if (direction === "vertical") {
+			document.head.insertAdjacentHTML("beforeend", `<style>.navMenu a {display: block; text-align:left; margin:7px} i{width:15px; margin-right:5px} .navMenu{margin:3px}</style>`)
+		}
+
+
+		function navigate(id) {
+
+			if (id == 'home')
+				window.open("https://example.com", '_blank').focus();
+			else if (id == "projects")
+				window.open("https://www.notion.so/49216c53182c40eb9cd8dcb53ba2556f?v=7b0d93a6e6fd494a9477a0ae58f2a918&pvs=4", '_blank').focus();
+			else if (id == "notes")
+				window.open("https://www.notion.so/e97a146c12f043e89e514e93caf49d3d?v=61426547ecfd4448830cf3e76df94a25&pvs=4", '_blank').focus();
+			else if (id == "resources")
+				window.open("https://www.notion.so/b05e1bcfd0724d36a035f71f6a669737?v=47e6053a671343dd93de554ecf651bbf&pvs=4", '_blank').focus();
+			else if (id == "tasks")
+				window.open("https://www.notion.so/dee2f2d7eb734157b978fbfe3105534c?v=a53cb4949c2c4a33835b1d20e875cf69&pvs=4", '_blank').focus();
+			else if (id == "database")
+				window.open("https://www.notion.so/Databases-c88e50d27c47453380c37a5d39b42f8f?pvs=4", '_blank').focus();
+			else if (id == "archive")
+				window.open("https://www.notion.so/Archive-218818855b5643d89074fe6220c4833c?pvs=4", '_blank').focus();
+		
+
+		}
+	</script>
+
+
+</body>
+
+</html>
