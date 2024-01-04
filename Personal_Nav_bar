@@ -58,11 +58,12 @@
 <body>
 
 	<nav class="navMenu  border background">
-		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-light fa-house-chimney" style="color: #fcae82;"></i> Home</a>
-  	<a id="goals" onclick="navigate(this.id)" href="#"> <i class="fa-light fa-trophy" style="color: #fcae82;"></i></i> Goals</a>
-		<a id="weight" onclick="navigate(this.id)" href="#"> <i class="fa-light fa-weight-scale" style="color: #fcae82; "></i></i> Weight Tracking</a>
-		<a id="workouts" onclick="navigate(this.id)" href="#"> <i class="fa-light fa-watch-fitness"  style="-color: #fcae82;"></i> Workouts</a>
-		<a id="meals" onclick="navigate(this.id)" href="#"> <i class="fa-light fa-utensils" style="color: #fcae82;"></i></i> Meal Planning</a>
+		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house-chimney" style="color: #fcae82;"></i> Home</a>
+  		<a id="goals" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-trophy" style="color: #fcae82;"></i></i> Goals</a>
+		<a id="weight" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-weight-scale" style="color: #fcae82; "></i></i> Weight Tracking</a>
+		<a id="workouts" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-watch-fitness"  style="-color: #fcae82;"></i> Workouts</a>
+		<a id="week" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-weight-scale"  style="-color: #fcae82;"></i> Weekly Tracking</a>
+		<a id="meals" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-utensils" style="color: #fcae82;"></i></i> Meal Planning</a>
 	
 		
 
@@ -82,15 +83,17 @@
 		function navigate(id) {
 
 			if (id == 'home')
-				window.open("https://www.notion.so/Work-Hub-195145b35d3b43d78848068a4dd44962?pvs=4", "_parent").focus();
+				window.open("https://www.notion.so/Workout-Dashboard-0c110f6e698d42a6882f16eda00f6ae5?pvs=4", "_parent").focus();
 			else if (id == "goals")
-				window.open("https://www.notion.so/Notes-e693246155524052b9037f70d68a1b1a?pvs=4", "_parent").focus();
+				window.open("https://www.notion.so/Goals-and-Rewards-b100fbe49a2d4ff8895f8891313bcf31?pvs=4", "_parent").focus();
 			else if (id == "weight")
-				window.open("https://www.notion.so/Notes-e693246155524052b9037f70d68a1b1a?pvs=4", "_parent").focus();
+				window.open("https://www.notion.so/Weight-Tracker-69862cacc56d49d9b317bb8e87c823bc?pvs=4", "_parent").focus();
 			else if (id == "workouts")
-				window.open("https://www.notion.so/Areas-and-Resources-748647a287934f41a0fd850cd9d45394?pvs=4", "_parent").focus();
+				window.open("https://www.notion.so/b42a7a1e93c74ae3b8813286b9fa03bc?v=5b212bb720cf469f8e15b6754e09860a&pvs=4", "_parent").focus();
+			else if (id == "week")
+				window.open("https://www.notion.so/1d855b74819c474ca036243ce00fbeb4?v=2e8f9277537e412f895c5ca2cfbd6c02&pvs=4", "_parent").focus();
 			else if (id == "meals")
-				window.open("https://www.notion.so/Tasks-1d4e2941982944e48cff12d48da1afb6?pvs=4", "_parent").focus();
+				window.open("https://www.notion.so/Meal-Planner-84f704f61cbc4ef293b8c1010fdeaa16?pvs=4", "_parent").focus();
 		}
 	</script>
 
