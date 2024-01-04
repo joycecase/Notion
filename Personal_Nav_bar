@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+	<!-- Google Font -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+
+	<!-------->
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+
+		.navMenu {
+			font-family: 'Raleway', sans-serif;
+			padding: 8px;
+			text-align: center;
+			margin: 7px auto;
+			width: fit-content;
+		}
+
+		.navMenu a {
+			color: #0a0908;
+			text-decoration: none;
+			text-transform: uppercase;
+			display: inline-block;
+			padding: 6px;
+		}
+
+		.background {
+			background-color: #f8f4e3;
+		}
+
+		.border {
+			border: 3px solid #80220f;
+
+		}
+
+		.navMenu a:hover {
+
+			color: #ff6720;
+		}
+	</style>
+</head>
+
+<body>
+
+	<nav class="navMenu  border background">
+		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-light fa-house-chimney" style="color: #fcae82;"></i> Home</a>
+  	<a id="goals" onclick="navigate(this.id)" href="#"> <i class="fa-light fa-trophy" style="color: #fcae82;"></i></i> Goals</a>
+		<a id="weight" onclick="navigate(this.id)" href="#"> <i class="fa-light fa-weight-scale" style="color: #fcae82; "></i></i> Weight Tracking</a>
+		<a id="workouts" onclick="navigate(this.id)" href="#"> <i class="fa-light fa-watch-fitness"  style="-color: #fcae82;"></i> Workouts</a>
+		<a id="meals" onclick="navigate(this.id)" href="#"> <i class="fa-light fa-utensils" style="color: #fcae82;"></i></i> Meal Planning</a>
+	
+		
+
+
+
+	</nav>
+
+
+	<script>
+
+		let direction = "vertical";
+		if (direction === "vertical") {
+			document.head.insertAdjacentHTML("beforeend", `<style>.navMenu a {display: block; text-align:left; margin:7px} i{width:15px; margin-right:5px} .navMenu{margin:3px}</style>`)
+		}
+
+
+		function navigate(id) {
+
+			if (id == 'home')
+				window.open("https://www.notion.so/Work-Hub-195145b35d3b43d78848068a4dd44962?pvs=4", "_parent").focus();
+			else if (id == "goals")
+				window.open("https://www.notion.so/Notes-e693246155524052b9037f70d68a1b1a?pvs=4", "_parent").focus();
+			else if (id == "weight")
+				window.open("https://www.notion.so/Notes-e693246155524052b9037f70d68a1b1a?pvs=4", "_parent").focus();
+			else if (id == "workouts")
+				window.open("https://www.notion.so/Areas-and-Resources-748647a287934f41a0fd850cd9d45394?pvs=4", "_parent").focus();
+			else if (id == "meals")
+				window.open("https://www.notion.so/Tasks-1d4e2941982944e48cff12d48da1afb6?pvs=4", "_parent").focus();
+		}
+	</script>
+
+
+</body>
+
+</html>
