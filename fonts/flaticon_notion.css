@@ -11,11 +11,11 @@
 
 @font-face {
     font-family: "flaticon_notion";
-    src: url("../fonts/flaticon_notion.woff2?0b194db383e6988e1e32ef68409bdf6c") format("woff2"),
-url("../fonts/flaticon_notion.woff?0b194db383e6988e1e32ef68409bdf6c") format("woff"),
-url("../fonts/flaticon_notion.eot?0b194db383e6988e1e32ef68409bdf6c#iefix") format("embedded-opentype"),
-url("../fonts/flaticon_notion.ttf?0b194db383e6988e1e32ef68409bdf6c") format("truetype"),
-url("../fonts/flaticon_notion.svg?0b194db383e6988e1e32ef68409bdf6c#flaticon_notion") format("svg")
+    src: url("../font/flaticon_notion.woff2?60bfb0629e95f0c655c96c7f02117542") format("woff2"),
+url("../font/flaticon_notion.woff?60bfb0629e95f0c655c96c7f02117542") format("woff"),
+url("../font/flaticon_notion.eot?60bfb0629e95f0c655c96c7f02117542#iefix") format("embedded-opentype"),
+url("../font/flaticon_notion.ttf?60bfb0629e95f0c655c96c7f02117542") format("truetype"),
+url("../font/flaticon_notion.svg?60bfb0629e95f0c655c96c7f02117542#flaticon_notion") format("svg")
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -379,5 +379,8 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 }
 .flaticon-theater:before {
     content: "\f175";
+}
+.flaticon-home:before {
+    content: "\f176";
 }
 
