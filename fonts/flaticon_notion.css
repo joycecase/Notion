@@ -11,11 +11,11 @@
 
 @font-face {
     font-family: "flaticon_notion";
-    src: url("../font/flaticon_notion.woff2?60bfb0629e95f0c655c96c7f02117542") format("woff2"),
-url("../font/flaticon_notion.woff?60bfb0629e95f0c655c96c7f02117542") format("woff"),
-url("../font/flaticon_notion.eot?60bfb0629e95f0c655c96c7f02117542#iefix") format("embedded-opentype"),
-url("../font/flaticon_notion.ttf?60bfb0629e95f0c655c96c7f02117542") format("truetype"),
-url("../font/flaticon_notion.svg?60bfb0629e95f0c655c96c7f02117542#flaticon_notion") format("svg")
+    src: url("../font/flaticon_notion.woff2") format("woff2"),
+url("../font/flaticon_notion.woff") format("woff"),
+url("../font/flaticon_notion.eot#iefix") format("embedded-opentype"),
+url("../font/flaticon_notion.ttf") format("truetype"),
+url("../font/flaticon_notion.svg#flaticon_notion") format("svg")
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
