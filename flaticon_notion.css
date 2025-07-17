@@ -1,0 +1,383 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon_notion";
+    src: url("./flaticon_notion.woff2?0b194db383e6988e1e32ef68409bdf6c") format("woff2"),
+url("./flaticon_notion.woff?0b194db383e6988e1e32ef68409bdf6c") format("woff"),
+url("./flaticon_notion.eot?0b194db383e6988e1e32ef68409bdf6c#iefix") format("embedded-opentype"),
+url("./flaticon_notion.ttf?0b194db383e6988e1e32ef68409bdf6c") format("truetype"),
+url("./flaticon_notion.svg?0b194db383e6988e1e32ef68409bdf6c#flaticon_notion") format("svg")
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_notion !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-sewing-machine:before {
+    content: "\f101";
+}
+.flaticon-fabric-pattern:before {
+    content: "\f102";
+}
+.flaticon-sewing-machine-1:before {
+    content: "\f103";
+}
+.flaticon-mannequin:before {
+    content: "\f104";
+}
+.flaticon-measuring-tape:before {
+    content: "\f105";
+}
+.flaticon-zipper:before {
+    content: "\f106";
+}
+.flaticon-ball-of-wool:before {
+    content: "\f107";
+}
+.flaticon-embroidery:before {
+    content: "\f108";
+}
+.flaticon-embroidery-1:before {
+    content: "\f109";
+}
+.flaticon-needle-thread:before {
+    content: "\f10a";
+}
+.flaticon-crochet:before {
+    content: "\f10b";
+}
+.flaticon-knitting-needles:before {
+    content: "\f10c";
+}
+.flaticon-hood:before {
+    content: "\f10d";
+}
+.flaticon-male-clothes:before {
+    content: "\f10e";
+}
+.flaticon-button:before {
+    content: "\f10f";
+}
+.flaticon-shoe:before {
+    content: "\f110";
+}
+.flaticon-sport-shoe:before {
+    content: "\f111";
+}
+.flaticon-swimsuit:before {
+    content: "\f112";
+}
+.flaticon-skirt:before {
+    content: "\f113";
+}
+.flaticon-tshirt:before {
+    content: "\f114";
+}
+.flaticon-jeans:before {
+    content: "\f115";
+}
+.flaticon-denim-jacket:before {
+    content: "\f116";
+}
+.flaticon-loose-pants:before {
+    content: "\f117";
+}
+.flaticon-trousers:before {
+    content: "\f118";
+}
+.flaticon-skirt-1:before {
+    content: "\f119";
+}
+.flaticon-sweater:before {
+    content: "\f11a";
+}
+.flaticon-overcoat:before {
+    content: "\f11b";
+}
+.flaticon-singlet:before {
+    content: "\f11c";
+}
+.flaticon-leggings:before {
+    content: "\f11d";
+}
+.flaticon-long-sleeve:before {
+    content: "\f11e";
+}
+.flaticon-dress:before {
+    content: "\f11f";
+}
+.flaticon-overall:before {
+    content: "\f120";
+}
+.flaticon-textile:before {
+    content: "\f121";
+}
+.flaticon-baby-clothes:before {
+    content: "\f122";
+}
+.flaticon-baby-onesie:before {
+    content: "\f123";
+}
+.flaticon-iron:before {
+    content: "\f124";
+}
+.flaticon-dress-1:before {
+    content: "\f125";
+}
+.flaticon-high-heels:before {
+    content: "\f126";
+}
+.flaticon-smart-shoe:before {
+    content: "\f127";
+}
+.flaticon-boot:before {
+    content: "\f128";
+}
+.flaticon-sneakers:before {
+    content: "\f129";
+}
+.flaticon-boots:before {
+    content: "\f12a";
+}
+.flaticon-handbag:before {
+    content: "\f12b";
+}
+.flaticon-pamela-hat:before {
+    content: "\f12c";
+}
+.flaticon-jewelry:before {
+    content: "\f12d";
+}
+.flaticon-diamond-ring:before {
+    content: "\f12e";
+}
+.flaticon-wristwatch:before {
+    content: "\f12f";
+}
+.flaticon-bracelet:before {
+    content: "\f130";
+}
+.flaticon-piercing:before {
+    content: "\f131";
+}
+.flaticon-necklace:before {
+    content: "\f132";
+}
+.flaticon-school-bag:before {
+    content: "\f133";
+}
+.flaticon-suitcase:before {
+    content: "\f134";
+}
+.flaticon-goodie-bag:before {
+    content: "\f135";
+}
+.flaticon-table-saw:before {
+    content: "\f136";
+}
+.flaticon-circular-saw:before {
+    content: "\f137";
+}
+.flaticon-hand-saw:before {
+    content: "\f138";
+}
+.flaticon-hammer:before {
+    content: "\f139";
+}
+.flaticon-glue:before {
+    content: "\f13a";
+}
+.flaticon-tools:before {
+    content: "\f13b";
+}
+.flaticon-tool:before {
+    content: "\f13c";
+}
+.flaticon-circular-saw-1:before {
+    content: "\f13d";
+}
+.flaticon-toolbox:before {
+    content: "\f13e";
+}
+.flaticon-scissor:before {
+    content: "\f13f";
+}
+.flaticon-wrench:before {
+    content: "\f140";
+}
+.flaticon-bolt:before {
+    content: "\f141";
+}
+.flaticon-drill:before {
+    content: "\f142";
+}
+.flaticon-drill-1:before {
+    content: "\f143";
+}
+.flaticon-measuring-tape-1:before {
+    content: "\f144";
+}
+.flaticon-cutter:before {
+    content: "\f145";
+}
+.flaticon-scissors:before {
+    content: "\f146";
+}
+.flaticon-paint-brush:before {
+    content: "\f147";
+}
+.flaticon-paint-bucket:before {
+    content: "\f148";
+}
+.flaticon-paint-roller:before {
+    content: "\f149";
+}
+.flaticon-saw:before {
+    content: "\f14a";
+}
+.flaticon-ruler:before {
+    content: "\f14b";
+}
+.flaticon-books:before {
+    content: "\f14c";
+}
+.flaticon-books-1:before {
+    content: "\f14d";
+}
+.flaticon-books-2:before {
+    content: "\f14e";
+}
+.flaticon-open-book:before {
+    content: "\f14f";
+}
+.flaticon-library:before {
+    content: "\f150";
+}
+.flaticon-bookmark:before {
+    content: "\f151";
+}
+.flaticon-books-3:before {
+    content: "\f152";
+}
+.flaticon-documentary:before {
+    content: "\f153";
+}
+.flaticon-romance:before {
+    content: "\f154";
+}
+.flaticon-comedy:before {
+    content: "\f155";
+}
+.flaticon-mystery:before {
+    content: "\f156";
+}
+.flaticon-action:before {
+    content: "\f157";
+}
+.flaticon-psychology:before {
+    content: "\f158";
+}
+.flaticon-horror:before {
+    content: "\f159";
+}
+.flaticon-drama:before {
+    content: "\f15a";
+}
+.flaticon-party:before {
+    content: "\f15b";
+}
+.flaticon-cartoon:before {
+    content: "\f15c";
+}
+.flaticon-fantasy:before {
+    content: "\f15d";
+}
+.flaticon-sci-fi:before {
+    content: "\f15e";
+}
+.flaticon-audio-book:before {
+    content: "\f15f";
+}
+.flaticon-shakespeare:before {
+    content: "\f160";
+}
+.flaticon-all-star:before {
+    content: "\f161";
+}
+.flaticon-shakespeare-1:before {
+    content: "\f162";
+}
+.flaticon-romantic-novel:before {
+    content: "\f163";
+}
+.flaticon-biological:before {
+    content: "\f164";
+}
+.flaticon-fantasy-1:before {
+    content: "\f165";
+}
+.flaticon-crime:before {
+    content: "\f166";
+}
+.flaticon-science-fiction:before {
+    content: "\f167";
+}
+.flaticon-horror-1:before {
+    content: "\f168";
+}
+.flaticon-history:before {
+    content: "\f169";
+}
+.flaticon-comic:before {
+    content: "\f16a";
+}
+.flaticon-joke:before {
+    content: "\f16b";
+}
+.flaticon-fantasy-2:before {
+    content: "\f16c";
+}
+.flaticon-mystery-1:before {
+    content: "\f16d";
+}
+.flaticon-science:before {
+    content: "\f16e";
+}
+.flaticon-biography:before {
+    content: "\f16f";
+}
+.flaticon-television:before {
+    content: "\f170";
+}
+.flaticon-film-reel:before {
+    content: "\f171";
+}
+.flaticon-movie:before {
+    content: "\f172";
+}
+.flaticon-ticket:before {
+    content: "\f173";
+}
+.flaticon-concert:before {
+    content: "\f174";
+}
+.flaticon-theater:before {
+    content: "\f175";
+}
+
