@@ -3,8 +3,8 @@
 
 <head>
 
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<!-- Flaticon -->
+	<link rel="stylesheet" type="text/css" href="fonts/flaticon_notion.css">
 
 	<!-- Google Font -->
 
@@ -24,12 +24,10 @@
 
 
 		.navMenu {
-			.belleza-regular {
-  font-family: "Belleza", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
+			
+			font-family: "Belleza", sans-serif;
+			font-weight: 400;
+			font-style: normal;
 			padding: 8px;
 			text-align: center;
 			margin: 7px auto;
@@ -54,35 +52,32 @@
 		}
 
 		.navMenu a:hover {
-
+			background-color: #04AA6D;
 			color: #d09c0b;
 		}
+		.active {
+			background-color: #154745;
+		}
+		
 	</style>
 </head>
 
 <body>
 
 	<nav class="navMenu  border">
-		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Home</a>
-		<a id="inbox" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-inbox"></i> Inbox</a>
-		<a id="week" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-calendar-week"></i> Planner</a>
-		<a id="projects" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-briefcase"></i> Projects</a>
-		<a id="tasks" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-list-check"></i> Tasks</a>
-		<a id="business" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-money-bill-wave"></i> Business</a>
-		<a id="knowledge" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-lightbulb"></i> Knowledge</a>
-		<a id="topics" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-layer-group"></i> Topics</a>
-		<a id="notes" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book"></i> Notes</a>
-		<a id="media" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-bookmark"></i> Media</a>
-		<a id="resourses" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-wrench"></i> Resourses</a>
-		<a id="lifewiki" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-heart"></i> Lifewiki</a>
-
-
+		<a id="home" onclick="navigate(this.id)" href="#"> <i class="flaticon-home"></i> Home</a>
+		<a id="sewing" onclick="navigate(this.id)" href="#"> <i class="flaticon-sewing-machine"></i> Sewing</a>
+		<a id="hproj" onclick="navigate(this.id)" href="#"> <i class="flaticon-table-saw"></i> Home Projects</a>
+		<a id="needlework" onclick="navigate(this.id)" href="#"> <i class="flaticon-embroidery"></i> Needlework</a>
+		<a id="capsule" onclick="navigate(this.id)" href="#"> <i class="flaticon-dress-1"></i> Capsule Wardrobe</a>
+		<a id="book" onclick="navigate(this.id)" href="#"> <i class="flaticon-books"></i> Book Nook</a>
+		<a id="watch" onclick="navigate(this.id)" href="#"> <i class="flaticon-film-reel"></i> Movies & TV</a>
+		
 
 	</nav>
 
-
 	<script>
-
+		
 		let direction = "horizontal";
 		if (direction === "vertical") {
 			document.head.insertAdjacentHTML("beforeend", `<style>.navMenu a {display: block; text-align:left; margin:7px} i{width:15px; margin-right:5px} .navMenu{margin:3px}</style>`)
@@ -92,32 +87,20 @@
 		function navigate(id) {
 
 			if (id == 'home')
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "inbox")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "week")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "month")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "projects")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "business")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "tasks")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "knowledge")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "topics")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "notes")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "media")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "resourses")
-				window.open("https://example.com3", '_blank').focus();
-			else if (id == "lifewiki")
-				window.open("https://example.com", '_blank').focus();
-
+				window.open("https://www.notion.so/Creative-Center-230480b839738021a3f6fd180a8f6553?source=copy_link", '_parent').focus();
+			else if (id == "sewing")
+				window.open("https://www.notion.so/Sewing-230480b83973802fbc17e24c03078011?source=copy_link", '_parent').focus();
+			else if (id == "hproj")
+				window.open("https://www.notion.so/Needlework-230480b839738076ad8bc0a5d8f4d30a?source=copy_link", '_parent').focus();
+			else if (id == "needlework")
+				window.open("https://www.notion.so/Needlework-230480b839738076ad8bc0a5d8f4d30a?source=copy_link", '_parent').focus();
+			else if (id == "capsule")
+				window.open("https://www.notion.so/Capsule-Wardrobe-230480b8397380069343e2f4056ae0dd?source=copy_link", '_parent').focus();
+			else if (id == "book")
+				window.open("https://www.notion.so/Book-Nook-232480b839738004ad65defd4006e45d?source=copy_link", '_parent').focus();
+			else if (id == "watch")
+				window.open("https://www.notion.so/Movies-and-TV-232480b83973800ead63d376233ea786?source=copy_link", '_parent').focus();
+			
 		}
 	</script>
 
