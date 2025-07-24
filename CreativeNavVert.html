@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<!-- Flaticon -->
+	<link rel="stylesheet" type="text/css" href="./fonts/flaticon_notion.css">
+
+	<!-- Google Font -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belleza&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+	<!-------->
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+
+		.navMenu {
+			
+			font-family: "Belleza", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			padding: 8px;
+			text-align: center;
+			margin: 7px auto;
+			width: fit-content;
+			
+		}
+
+		.navMenu a {
+			color: #390040;
+			background-color: #FFFFFF;
+			text-decoration: none;
+			text-transform: uppercase;
+			display: inline-block;
+			padding: 12px;
+		}
+
+		.border {
+			border: 2px solid #154745;
+			border-radius: 4px;
+			}
+
+		.navMenu a:hover {
+			background-color: #F5B8CA;
+			color: #390040 ;
+		}
+		.navMenu a.active {
+			background-color: #154745;
+			color: #F0AF3C
+		}		
+}
+	</style>
+</head>
+
+<body>
+
+	<nav class="navMenu  border">
+		<a id="home" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-home"></i> Home</a>
+		<a id="sewing" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-sewing-machine"></i> Sewing</a>
+		<a id="hproj" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-hand-saw"></i> Home Projects</a>
+		<a id="needlework" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-embroidery"></i> Needlework</a>
+		<a id="capsule" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-dress-1"></i> Capsule Wardrobe</a>
+		<a id="book" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-books"></i> Book Nook</a>
+		<a id="watch" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-film-reel"></i> Movies & TV</a>
+			
+
+	</nav>
+
+	<script>
+		
+		let direction = "vertical";
+		if (direction === "vertical") {
+			document.head.insertAdjacentHTML("beforeend", `<style>.navMenu a {display: block; text-align:left; margin:7px} i{width:15px; margin-right:5px} .navMenu{margin:3px}</style>`)
+		}
+
+
+		function navigate(id) {
+
+			if (id == 'home')
+				window.open("https://www.notion.so/Creative-Center-230480b839738021a3f6fd180a8f6553?source=copy_link", '_parent').focus();
+			else if (id == "sewing")
+				window.open("https://www.notion.so/Sewing-230480b83973802fbc17e24c03078011?source=copy_link", '_parent').focus();
+			else if (id == "hproj")
+				window.open("https://www.notion.so/Needlework-230480b839738076ad8bc0a5d8f4d30a?source=copy_link", '_parent').focus();
+			else if (id == "needlework")
+				window.open("https://www.notion.so/Needlework-230480b839738076ad8bc0a5d8f4d30a?source=copy_link", '_parent').focus();
+			else if (id == "capsule")
+				window.open("https://www.notion.so/Capsule-Wardrobe-230480b8397380069343e2f4056ae0dd?source=copy_link", '_parent').focus();
+			else if (id == "book")
+				window.open("https://www.notion.so/Book-Nook-232480b839738004ad65defd4006e45d?source=copy_link", '_parent').focus();
+			else if (id == "watch")
+				window.open("https://www.notion.so/Movies-and-TV-232480b83973800ead63d376233ea786?source=copy_link", '_parent').focus();
+			
+		}
+
+		function active() {
+
+			var url = window.location.href;
+			$('navMenu').find('active').removeClass('active');
+			$('navMenu a').filter(function(){
+			return this.href == url;
+			}).addClass('active');
+				}
+	</script>
+</body>
+
+</html>
