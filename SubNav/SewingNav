@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<!-- Flaticon -->
+	<link rel="stylesheet" type="text/css" href="./fonts/flaticon_notion.css">
+
+	<!-- Google Font -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belleza&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+	<!-------->
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+
+		.navMenu {
+			
+			font-family: "Belleza", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			padding: 8px;
+			text-align: center;
+			margin: 7px auto;
+			width: fit-content;
+			
+		}
+
+		.navMenu a {
+			color: #390040;
+			background-color: #FFFFFF;
+			text-decoration: none;
+			text-transform: uppercase;
+			display: inline-block;
+			padding: 12px;
+		}
+
+		.border {
+			border: 2px solid #154745;
+			border-radius: 4px;
+			}
+
+		.navMenu a:hover {
+			background-color: #F5B8CA;
+			color: #390040 ;
+		}
+		.navMenu a.active {
+			background-color: #154745;
+			color: #F0AF3C
+		}		
+}
+	</style>
+</head>
+
+<body>
+
+	<nav class="navMenu  border">
+    <a id="home" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-home"></i> Creative Center</a>
+		<a id="sewhome" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-home"></i> Sewing Home</a>
+    <a id="project" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-books"></i> Projects</a>
+		<a id="patterns" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-sewing-machine"></i> Patterns</a>
+  	<a id="fabric" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-dress-1"></i> Fabric Stash</a>
+    <a id="wishlist" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-embroidery"></i> Wishlist</a>
+		<a id="inspo" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-hand-saw"></i> Inspiration</a>
+		
+	
+		
+					
+
+	</nav>
+
+	<script>
+		
+		let direction = "horizontal";
+		if (direction === "vertical") {
+			document.head.insertAdjacentHTML("beforeend", `<style>.navMenu a {display: block; text-align:left; margin:7px} i{width:15px; margin-right:5px} .navMenu{margin:3px}</style>`)
+		}
+
+
+		function navigate(id) {
+
+			if (id == 'home')
+				window.open("https://www.notion.so/Creative-Center-230480b839738021a3f6fd180a8f6553", '_parent').focus();
+			else if (id == "sewhome")
+				window.open("https://www.notion.so/Sewing-Hub-230480b83973802fbc17e24c03078011", '_parent').focus();
+			else if (id == "project")
+				window.open("https://www.notion.so/Projects-230480b8397380cbbaa1dd329559d3b6", '_parent').focus();
+			else if (id == "patterns")
+				window.open("https://www.notion.so/Patterns-230480b839738071b7d9d4b2bec634ce", '_parent').focus();
+			else if (id == "fabric")
+				window.open("https://www.notion.so/Fabric-Stash-230480b8397380fb9e5bcb369230a12d", '_parent').focus();
+			else if (id == "wishlist")
+				window.open("https://www.notion.so/Sewing-Wishlist-230480b839738021a5a2c12bd6c6c444", '_parent').focus();
+			else if (id == "inspo")
+				window.open("https://www.notion.so/Inspiration-230480b83973805da7d0f764ffdb56ef", '_parent').focus();
+			
+		}
+
+		function active() {
+
+			var url = window.location.href;
+			$('navMenu').find('active').removeClass('active');
+			$('navMenu a').filter(function(){
+			return this.href == url;
+			}).addClass('active');
+				}
+	</script>
+</body>
+
+</html>
