@@ -1,0 +1,553 @@
+$flaticon_notion-font: "flaticon_notion";
+
+@font-face {
+    font-family: $flaticon_notion-font;
+    src: url("./flaticon_notion.woff2?6f21448976373217a620011366259cec") format("woff2"),
+url("./flaticon_notion.woff?6f21448976373217a620011366259cec") format("woff"),
+url("./flaticon_notion.eot?6f21448976373217a620011366259cec#iefix") format("embedded-opentype"),
+url("./flaticon_notion.ttf?6f21448976373217a620011366259cec") format("truetype"),
+url("./flaticon_notion.svg?6f21448976373217a620011366259cec#flaticon_notion") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_notion !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_notion-map: (
+    "sewing-machine": "\f101",
+    "sewing-machine-1": "\f102",
+    "mannequin": "\f103",
+    "ball-of-wool": "\f104",
+    "embroidery": "\f105",
+    "needle-thread": "\f106",
+    "crochet": "\f107",
+    "knitting-needles": "\f108",
+    "hood": "\f109",
+    "male-clothes": "\f10a",
+    "button": "\f10b",
+    "shoe": "\f10c",
+    "sport-shoe": "\f10d",
+    "swimsuit": "\f10e",
+    "skirt": "\f10f",
+    "tshirt": "\f110",
+    "jeans": "\f111",
+    "denim-jacket": "\f112",
+    "loose-pants": "\f113",
+    "trousers": "\f114",
+    "skirt-1": "\f115",
+    "sweater": "\f116",
+    "overcoat": "\f117",
+    "singlet": "\f118",
+    "leggings": "\f119",
+    "long-sleeve": "\f11a",
+    "dress": "\f11b",
+    "overall": "\f11c",
+    "textile": "\f11d",
+    "baby-clothes": "\f11e",
+    "baby-onesie": "\f11f",
+    "iron": "\f120",
+    "dress-1": "\f121",
+    "high-heels": "\f122",
+    "smart-shoe": "\f123",
+    "boot": "\f124",
+    "sneakers": "\f125",
+    "boots": "\f126",
+    "handbag": "\f127",
+    "pamela-hat": "\f128",
+    "jewelry": "\f129",
+    "diamond-ring": "\f12a",
+    "wristwatch": "\f12b",
+    "bracelet": "\f12c",
+    "piercing": "\f12d",
+    "necklace": "\f12e",
+    "school-bag": "\f12f",
+    "suitcase": "\f130",
+    "goodie-bag": "\f131",
+    "table-saw": "\f132",
+    "circular-saw": "\f133",
+    "hand-saw": "\f134",
+    "hammer": "\f135",
+    "glue": "\f136",
+    "tools": "\f137",
+    "tool": "\f138",
+    "circular-saw-1": "\f139",
+    "toolbox": "\f13a",
+    "scissor": "\f13b",
+    "wrench": "\f13c",
+    "bolt": "\f13d",
+    "drill": "\f13e",
+    "drill-1": "\f13f",
+    "measuring-tape": "\f140",
+    "cutter": "\f141",
+    "scissors": "\f142",
+    "paint-brush": "\f143",
+    "paint-bucket": "\f144",
+    "paint-roller": "\f145",
+    "saw": "\f146",
+    "ruler": "\f147",
+    "books": "\f148",
+    "books-1": "\f149",
+    "books-2": "\f14a",
+    "open-book": "\f14b",
+    "library": "\f14c",
+    "bookmark": "\f14d",
+    "books-3": "\f14e",
+    "documentary": "\f14f",
+    "romance": "\f150",
+    "comedy": "\f151",
+    "mystery": "\f152",
+    "action": "\f153",
+    "psychology": "\f154",
+    "horror": "\f155",
+    "drama": "\f156",
+    "party": "\f157",
+    "cartoon": "\f158",
+    "fantasy": "\f159",
+    "sci-fi": "\f15a",
+    "audio-book": "\f15b",
+    "shakespeare": "\f15c",
+    "all-star": "\f15d",
+    "shakespeare-1": "\f15e",
+    "romantic-novel": "\f15f",
+    "biological": "\f160",
+    "fantasy-1": "\f161",
+    "crime": "\f162",
+    "science-fiction": "\f163",
+    "horror-1": "\f164",
+    "history": "\f165",
+    "comic": "\f166",
+    "joke": "\f167",
+    "fantasy-2": "\f168",
+    "mystery-1": "\f169",
+    "science": "\f16a",
+    "biography": "\f16b",
+    "television": "\f16c",
+    "film-reel": "\f16d",
+    "movie": "\f16e",
+    "ticket": "\f16f",
+    "concert": "\f170",
+    "theater": "\f171",
+    "home": "\f172",
+    "embroidery-1": "\f173",
+    "embroidery-2": "\f174",
+    "embroidery-3": "\f175",
+    "embroidery-4": "\f176",
+    "thread": "\f177",
+    "wool": "\f178",
+    "wool-fabric": "\f179",
+    "art-and-design": "\f17a",
+    "sheep": "\f17b",
+    "needle": "\f17c",
+    "circular": "\f17d",
+    "pattern": "\f17e",
+    "fabric-pattern": "\f17f",
+    "dummy": "\f180",
+    "fabric": "\f181",
+    "sample": "\f182",
+    "wishlist": "\f183",
+    "inspiration": "\f184",
+);
+
+.flaticon-sewing-machine:before {
+    content: map-get($flaticon_notion-map, "sewing-machine");
+}
+.flaticon-sewing-machine-1:before {
+    content: map-get($flaticon_notion-map, "sewing-machine-1");
+}
+.flaticon-mannequin:before {
+    content: map-get($flaticon_notion-map, "mannequin");
+}
+.flaticon-ball-of-wool:before {
+    content: map-get($flaticon_notion-map, "ball-of-wool");
+}
+.flaticon-embroidery:before {
+    content: map-get($flaticon_notion-map, "embroidery");
+}
+.flaticon-needle-thread:before {
+    content: map-get($flaticon_notion-map, "needle-thread");
+}
+.flaticon-crochet:before {
+    content: map-get($flaticon_notion-map, "crochet");
+}
+.flaticon-knitting-needles:before {
+    content: map-get($flaticon_notion-map, "knitting-needles");
+}
+.flaticon-hood:before {
+    content: map-get($flaticon_notion-map, "hood");
+}
+.flaticon-male-clothes:before {
+    content: map-get($flaticon_notion-map, "male-clothes");
+}
+.flaticon-button:before {
+    content: map-get($flaticon_notion-map, "button");
+}
+.flaticon-shoe:before {
+    content: map-get($flaticon_notion-map, "shoe");
+}
+.flaticon-sport-shoe:before {
+    content: map-get($flaticon_notion-map, "sport-shoe");
+}
+.flaticon-swimsuit:before {
+    content: map-get($flaticon_notion-map, "swimsuit");
+}
+.flaticon-skirt:before {
+    content: map-get($flaticon_notion-map, "skirt");
+}
+.flaticon-tshirt:before {
+    content: map-get($flaticon_notion-map, "tshirt");
+}
+.flaticon-jeans:before {
+    content: map-get($flaticon_notion-map, "jeans");
+}
+.flaticon-denim-jacket:before {
+    content: map-get($flaticon_notion-map, "denim-jacket");
+}
+.flaticon-loose-pants:before {
+    content: map-get($flaticon_notion-map, "loose-pants");
+}
+.flaticon-trousers:before {
+    content: map-get($flaticon_notion-map, "trousers");
+}
+.flaticon-skirt-1:before {
+    content: map-get($flaticon_notion-map, "skirt-1");
+}
+.flaticon-sweater:before {
+    content: map-get($flaticon_notion-map, "sweater");
+}
+.flaticon-overcoat:before {
+    content: map-get($flaticon_notion-map, "overcoat");
+}
+.flaticon-singlet:before {
+    content: map-get($flaticon_notion-map, "singlet");
+}
+.flaticon-leggings:before {
+    content: map-get($flaticon_notion-map, "leggings");
+}
+.flaticon-long-sleeve:before {
+    content: map-get($flaticon_notion-map, "long-sleeve");
+}
+.flaticon-dress:before {
+    content: map-get($flaticon_notion-map, "dress");
+}
+.flaticon-overall:before {
+    content: map-get($flaticon_notion-map, "overall");
+}
+.flaticon-textile:before {
+    content: map-get($flaticon_notion-map, "textile");
+}
+.flaticon-baby-clothes:before {
+    content: map-get($flaticon_notion-map, "baby-clothes");
+}
+.flaticon-baby-onesie:before {
+    content: map-get($flaticon_notion-map, "baby-onesie");
+}
+.flaticon-iron:before {
+    content: map-get($flaticon_notion-map, "iron");
+}
+.flaticon-dress-1:before {
+    content: map-get($flaticon_notion-map, "dress-1");
+}
+.flaticon-high-heels:before {
+    content: map-get($flaticon_notion-map, "high-heels");
+}
+.flaticon-smart-shoe:before {
+    content: map-get($flaticon_notion-map, "smart-shoe");
+}
+.flaticon-boot:before {
+    content: map-get($flaticon_notion-map, "boot");
+}
+.flaticon-sneakers:before {
+    content: map-get($flaticon_notion-map, "sneakers");
+}
+.flaticon-boots:before {
+    content: map-get($flaticon_notion-map, "boots");
+}
+.flaticon-handbag:before {
+    content: map-get($flaticon_notion-map, "handbag");
+}
+.flaticon-pamela-hat:before {
+    content: map-get($flaticon_notion-map, "pamela-hat");
+}
+.flaticon-jewelry:before {
+    content: map-get($flaticon_notion-map, "jewelry");
+}
+.flaticon-diamond-ring:before {
+    content: map-get($flaticon_notion-map, "diamond-ring");
+}
+.flaticon-wristwatch:before {
+    content: map-get($flaticon_notion-map, "wristwatch");
+}
+.flaticon-bracelet:before {
+    content: map-get($flaticon_notion-map, "bracelet");
+}
+.flaticon-piercing:before {
+    content: map-get($flaticon_notion-map, "piercing");
+}
+.flaticon-necklace:before {
+    content: map-get($flaticon_notion-map, "necklace");
+}
+.flaticon-school-bag:before {
+    content: map-get($flaticon_notion-map, "school-bag");
+}
+.flaticon-suitcase:before {
+    content: map-get($flaticon_notion-map, "suitcase");
+}
+.flaticon-goodie-bag:before {
+    content: map-get($flaticon_notion-map, "goodie-bag");
+}
+.flaticon-table-saw:before {
+    content: map-get($flaticon_notion-map, "table-saw");
+}
+.flaticon-circular-saw:before {
+    content: map-get($flaticon_notion-map, "circular-saw");
+}
+.flaticon-hand-saw:before {
+    content: map-get($flaticon_notion-map, "hand-saw");
+}
+.flaticon-hammer:before {
+    content: map-get($flaticon_notion-map, "hammer");
+}
+.flaticon-glue:before {
+    content: map-get($flaticon_notion-map, "glue");
+}
+.flaticon-tools:before {
+    content: map-get($flaticon_notion-map, "tools");
+}
+.flaticon-tool:before {
+    content: map-get($flaticon_notion-map, "tool");
+}
+.flaticon-circular-saw-1:before {
+    content: map-get($flaticon_notion-map, "circular-saw-1");
+}
+.flaticon-toolbox:before {
+    content: map-get($flaticon_notion-map, "toolbox");
+}
+.flaticon-scissor:before {
+    content: map-get($flaticon_notion-map, "scissor");
+}
+.flaticon-wrench:before {
+    content: map-get($flaticon_notion-map, "wrench");
+}
+.flaticon-bolt:before {
+    content: map-get($flaticon_notion-map, "bolt");
+}
+.flaticon-drill:before {
+    content: map-get($flaticon_notion-map, "drill");
+}
+.flaticon-drill-1:before {
+    content: map-get($flaticon_notion-map, "drill-1");
+}
+.flaticon-measuring-tape:before {
+    content: map-get($flaticon_notion-map, "measuring-tape");
+}
+.flaticon-cutter:before {
+    content: map-get($flaticon_notion-map, "cutter");
+}
+.flaticon-scissors:before {
+    content: map-get($flaticon_notion-map, "scissors");
+}
+.flaticon-paint-brush:before {
+    content: map-get($flaticon_notion-map, "paint-brush");
+}
+.flaticon-paint-bucket:before {
+    content: map-get($flaticon_notion-map, "paint-bucket");
+}
+.flaticon-paint-roller:before {
+    content: map-get($flaticon_notion-map, "paint-roller");
+}
+.flaticon-saw:before {
+    content: map-get($flaticon_notion-map, "saw");
+}
+.flaticon-ruler:before {
+    content: map-get($flaticon_notion-map, "ruler");
+}
+.flaticon-books:before {
+    content: map-get($flaticon_notion-map, "books");
+}
+.flaticon-books-1:before {
+    content: map-get($flaticon_notion-map, "books-1");
+}
+.flaticon-books-2:before {
+    content: map-get($flaticon_notion-map, "books-2");
+}
+.flaticon-open-book:before {
+    content: map-get($flaticon_notion-map, "open-book");
+}
+.flaticon-library:before {
+    content: map-get($flaticon_notion-map, "library");
+}
+.flaticon-bookmark:before {
+    content: map-get($flaticon_notion-map, "bookmark");
+}
+.flaticon-books-3:before {
+    content: map-get($flaticon_notion-map, "books-3");
+}
+.flaticon-documentary:before {
+    content: map-get($flaticon_notion-map, "documentary");
+}
+.flaticon-romance:before {
+    content: map-get($flaticon_notion-map, "romance");
+}
+.flaticon-comedy:before {
+    content: map-get($flaticon_notion-map, "comedy");
+}
+.flaticon-mystery:before {
+    content: map-get($flaticon_notion-map, "mystery");
+}
+.flaticon-action:before {
+    content: map-get($flaticon_notion-map, "action");
+}
+.flaticon-psychology:before {
+    content: map-get($flaticon_notion-map, "psychology");
+}
+.flaticon-horror:before {
+    content: map-get($flaticon_notion-map, "horror");
+}
+.flaticon-drama:before {
+    content: map-get($flaticon_notion-map, "drama");
+}
+.flaticon-party:before {
+    content: map-get($flaticon_notion-map, "party");
+}
+.flaticon-cartoon:before {
+    content: map-get($flaticon_notion-map, "cartoon");
+}
+.flaticon-fantasy:before {
+    content: map-get($flaticon_notion-map, "fantasy");
+}
+.flaticon-sci-fi:before {
+    content: map-get($flaticon_notion-map, "sci-fi");
+}
+.flaticon-audio-book:before {
+    content: map-get($flaticon_notion-map, "audio-book");
+}
+.flaticon-shakespeare:before {
+    content: map-get($flaticon_notion-map, "shakespeare");
+}
+.flaticon-all-star:before {
+    content: map-get($flaticon_notion-map, "all-star");
+}
+.flaticon-shakespeare-1:before {
+    content: map-get($flaticon_notion-map, "shakespeare-1");
+}
+.flaticon-romantic-novel:before {
+    content: map-get($flaticon_notion-map, "romantic-novel");
+}
+.flaticon-biological:before {
+    content: map-get($flaticon_notion-map, "biological");
+}
+.flaticon-fantasy-1:before {
+    content: map-get($flaticon_notion-map, "fantasy-1");
+}
+.flaticon-crime:before {
+    content: map-get($flaticon_notion-map, "crime");
+}
+.flaticon-science-fiction:before {
+    content: map-get($flaticon_notion-map, "science-fiction");
+}
+.flaticon-horror-1:before {
+    content: map-get($flaticon_notion-map, "horror-1");
+}
+.flaticon-history:before {
+    content: map-get($flaticon_notion-map, "history");
+}
+.flaticon-comic:before {
+    content: map-get($flaticon_notion-map, "comic");
+}
+.flaticon-joke:before {
+    content: map-get($flaticon_notion-map, "joke");
+}
+.flaticon-fantasy-2:before {
+    content: map-get($flaticon_notion-map, "fantasy-2");
+}
+.flaticon-mystery-1:before {
+    content: map-get($flaticon_notion-map, "mystery-1");
+}
+.flaticon-science:before {
+    content: map-get($flaticon_notion-map, "science");
+}
+.flaticon-biography:before {
+    content: map-get($flaticon_notion-map, "biography");
+}
+.flaticon-television:before {
+    content: map-get($flaticon_notion-map, "television");
+}
+.flaticon-film-reel:before {
+    content: map-get($flaticon_notion-map, "film-reel");
+}
+.flaticon-movie:before {
+    content: map-get($flaticon_notion-map, "movie");
+}
+.flaticon-ticket:before {
+    content: map-get($flaticon_notion-map, "ticket");
+}
+.flaticon-concert:before {
+    content: map-get($flaticon_notion-map, "concert");
+}
+.flaticon-theater:before {
+    content: map-get($flaticon_notion-map, "theater");
+}
+.flaticon-home:before {
+    content: map-get($flaticon_notion-map, "home");
+}
+.flaticon-embroidery-1:before {
+    content: map-get($flaticon_notion-map, "embroidery-1");
+}
+.flaticon-embroidery-2:before {
+    content: map-get($flaticon_notion-map, "embroidery-2");
+}
+.flaticon-embroidery-3:before {
+    content: map-get($flaticon_notion-map, "embroidery-3");
+}
+.flaticon-embroidery-4:before {
+    content: map-get($flaticon_notion-map, "embroidery-4");
+}
+.flaticon-thread:before {
+    content: map-get($flaticon_notion-map, "thread");
+}
+.flaticon-wool:before {
+    content: map-get($flaticon_notion-map, "wool");
+}
+.flaticon-wool-fabric:before {
+    content: map-get($flaticon_notion-map, "wool-fabric");
+}
+.flaticon-art-and-design:before {
+    content: map-get($flaticon_notion-map, "art-and-design");
+}
+.flaticon-sheep:before {
+    content: map-get($flaticon_notion-map, "sheep");
+}
+.flaticon-needle:before {
+    content: map-get($flaticon_notion-map, "needle");
+}
+.flaticon-circular:before {
+    content: map-get($flaticon_notion-map, "circular");
+}
+.flaticon-pattern:before {
+    content: map-get($flaticon_notion-map, "pattern");
+}
+.flaticon-fabric-pattern:before {
+    content: map-get($flaticon_notion-map, "fabric-pattern");
+}
+.flaticon-dummy:before {
+    content: map-get($flaticon_notion-map, "dummy");
+}
+.flaticon-fabric:before {
+    content: map-get($flaticon_notion-map, "fabric");
+}
+.flaticon-sample:before {
+    content: map-get($flaticon_notion-map, "sample");
+}
+.flaticon-wishlist:before {
+    content: map-get($flaticon_notion-map, "wishlist");
+}
+.flaticon-inspiration:before {
+    content: map-get($flaticon_notion-map, "inspiration");
+}
