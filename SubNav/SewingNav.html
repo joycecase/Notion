@@ -63,16 +63,15 @@
 
 <body>
 
-<nav class="navMenu  border">
-    <a id="home" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-home"></i> Creative Center</a>
-	<a id="sewhome" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-sewing-machine-1"></i> Sewing Home</a>
-    <a id="project" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-mannequin"></i> Projects</a>
-	<a id="patterns" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-fabric-pattern"></i> Patterns</a>
-  	<a id="fabric" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-textile"></i> Fabric Stash</a>
-    <a id="wishlist" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-wishlist"></i> Wishlist</a>
-	<a id="inspo" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-inspiration"></i> Inspiration</a>
-		
-</nav>
+	<nav class="navMenu  border">
+		<a id="home" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-home"></i> Home</a>
+		<a id="sewhome" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-sewing-machine"></i> Sewing Home</a>
+		<a id="project" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-hand-saw"></i> Projects</a>
+		<a id="patterns" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-embroidery"></i> Patterns</a>
+		<a id="fabric" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-dress-1"></i> Fabric Stash</a>
+		<a id="wishlist" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-books"></i> Wishlist</a>
+		<a id="inspo" onclick="navigate(this.id); active()" href="#"> <i class="flaticon-film-reel"></i> Inspiration</a>
+	</nav>
 
 	<script>
 		
@@ -83,7 +82,6 @@
 
 
 		function navigate(id) {
-
 			if (id == 'home')
 				window.open("https://www.notion.so/Creative-Center-230480b839738021a3f6fd180a8f6553", '_parent').focus();
 			else if (id == "sewhome")
@@ -98,8 +96,7 @@
 				window.open("https://www.notion.so/Sewing-Wishlist-230480b839738021a5a2c12bd6c6c444", '_parent').focus();
 			else if (id == "inspo")
 				window.open("https://www.notion.so/Inspiration-230480b83973805da7d0f764ffdb56ef", '_parent').focus();
-			
-		}
+			}
 
 		function active() {
 
@@ -111,5 +108,4 @@
 				}
 	</script>
 </body>
-
 </html>
