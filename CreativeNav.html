@@ -53,11 +53,11 @@
 			background-color: #F5B8CA;
 			color: #390040 ;
 		}
-		.navMenu a.active {
+		a.active {
 			background-color: #154745;
 			color: #F0AF3C
-		}		
-}
+		}	
+	}
 	</style>
 </head>
 
@@ -102,14 +102,12 @@
 			
 		}
 
-		function active() {
-
-			var url = window.location.href;
-			$('navMenu').find('active').removeClass('active');
-			$('navMenu a').filter(function(){
-			return this.href == url;
-			}).addClass('active');
-				}
+		 var items = $("a");
+  			items.on("click",function(){
+     		items.removeClass("active");
+     		$(this).toggleClass("active");
+			}
+		);
 	</script>
 </body>
 
